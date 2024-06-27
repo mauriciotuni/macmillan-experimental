@@ -7,14 +7,7 @@ function Home() {
 
     return (
         <div className="home-container">
-            <div className="card">
-                <h3>Create Test</h3>
-                <button onClick={() => navigate('/create-test')}>Create</button>
-            </div>
-            <div className="card">
-                <h3>My Tests</h3>
-                <button onClick={() => navigate('/my-tests')}>View</button>
-            </div>
+            <h1>Home</h1>
         </div>
     );
 }
