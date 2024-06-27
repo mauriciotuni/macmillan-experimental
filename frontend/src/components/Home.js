@@ -1,15 +1,15 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import './Home.css';
 
-function Home() {
-    const navigate = useNavigate();
-
-    return (
-        <div className="home-container">
-            <h1>Home</h1>
-        </div>
-    );
-}
+const Home = () => {
+  return (
+    <div className="container">
+      <div className="box">
+        <button className="home-button" onClick={() => window.location.href = '/login'}>Login</button>
+        <button className="home-button" onClick={() => window.location.href = '/signup'}>Signup</button>
+      </div>
+    </div>
+  );
+};
 
 export default Home;

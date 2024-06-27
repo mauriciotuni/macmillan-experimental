@@ -13,7 +13,7 @@ function Navbar() {
     const handleLogout = () => {
         // Implement your logout logic here
         alert('Logged out');
-        navigate('/login');
+        navigate('/home');
     };
 
     return (

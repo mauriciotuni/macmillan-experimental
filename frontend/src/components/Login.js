@@ -13,7 +13,7 @@ function Login() {
             .then(response => {
                 alert(response.data.message);
                 if (response.data.message === 'Login successful') {
-                    navigate('/home');
+                    navigate('/dashboard');
                 }
             })
             .catch(error => {
